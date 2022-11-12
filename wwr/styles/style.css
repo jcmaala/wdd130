@@ -205,6 +205,89 @@ main section img{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px black;
 }
+#background1{
+    background-color: var(--primary-color);
+    box-shadow: 5px 5px 10px black;
+}
+#rivers-hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 100px;
+}
+#rivers-hero-box{
+    grid-column: 1/4;
+    grid-row: 1;
+    z-index: -1;
+}
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 30px 1fr 50px 1fr 30px;
+    grid-template-rows: 1fr 50px 1fr 50px 1fr;
+}
+#rivers-hero-msg{
+    text-align: center;
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0px;
+
+}
+#rivers-hero-img{
+    width: 100%;
+}
+.rivers-home-title{
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+.rivers-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: justify;
+    font-size: 1em;
+    font-family: var(--paragraph-font);
+}
+#rivers-pic1{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.rivers-msg2{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    text-align: left;
+    margin-top: 0%;
+    font-size: 1em;
+    font-family: var(--paragraph-font);
+}
+#rivers-pic2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#rivers-pic3{
+    grid-row: 5/6;
+    grid-column: 4/5;
+}
+.rivers-msg3{
+    grid-column: 2/3;
+    grid-row:5/6;
+    text-align: justify;
+    font-size: 1em;
+    font-family: var(--paragraph-font);
+    
+}
+#rivers-pic1, #rivers-pic2, #rivers-pic3{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    border: 10px solid #16425B;
+    box-shadow: 5px 5px 10px black;
+
+}
+.rivers-msg h2, .rivers-msg2 h2, .rivers-msg3 h2{
+    text-align: center;
+    color: var(--accent1-color);
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
