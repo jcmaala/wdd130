@@ -31,8 +31,7 @@ header{
     opacity: 0.9;
 }
 header b{
-    text-align: justify left;
-    font: var(--heading-font);
+    text-align: justify;
     justify-content: space-around;
     margin-top: auto;
     margin-bottom: auto;
@@ -65,7 +64,7 @@ body{
     grid-template-columns: 30px 1fr 120px 1fr 30px;
     grid-template-rows: 150px 1fr 50px 1fr 50px 1fr;
 }
-#background{
+.background{
     background-color: var(--primary-color);
     box-shadow: 5px 5px 10px black;
 }
